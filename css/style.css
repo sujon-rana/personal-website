@@ -1,0 +1,45 @@
+
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-section{
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding: 60px;
+}
+.half-width{
+    width: 50%;
+    height: 80vh;
+    float: left;
+}
+img{
+    margin-left: 50px;
+    width: 100%;
+}
+#name{
+    font-size: 3rem;
+    color: rgb(206, 4, 115);
+}
+#greatings{
+    font-size: 2.3rem;
+}
+#hire-me{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 18px;
+    background-color: rgb(206, 4, 115);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 6px;
+    
+}
+#header-info{
+    margin-top: 20%;
+    padding-left: 8%;
+}

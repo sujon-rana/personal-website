@@ -7,6 +7,9 @@
 }
 .header-section{
     background-image: url("../images/header_bg.png");
+    
+}
+section{
     background-repeat: no-repeat;
     height: 80vh;
     padding: 60px;
@@ -17,8 +20,10 @@
     float: left;
 }
 img{
-    margin-left: 50px;
     width: 100%;
+}
+#header-image{
+    margin-left: 50px;
 }
 #name{
     font-size: 3rem;
@@ -27,7 +32,7 @@ img{
 #greatings{
     font-size: 2.3rem;
 }
-#hire-me{
+#hire-me, #download-cv-link{
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -39,7 +44,76 @@ img{
     border-radius: 6px;
     
 }
-#header-info{
+#header-info, .bio-info{
     margin-top: 20%;
     padding-left: 8%;
+}
+.biography-section{
+    background-image: url("../images/biography-bg.png");
+}
+#bio-title{
+    font-size: 2.5rem;
+}
+.work-section{
+    background-image: url("../images/footer-bg.png");
+}
+.work-div{
+    width: 30%;
+    height: 80vh;
+    float: left;
+    padding-right: 15px;
+
+}
+.work-div img{
+    box-shadow: 4px 8px 12px gray;
+}
+
+.work-details{
+    display: inline-block;
+    padding-left: 5%;
+}
+#work-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.footer-section{
+    background-image: url("../images/footer-bg.png");
+    text-align: center;
+}
+#footer-heading{
+    font-size: 2.5rem;
+}
+.client-name{
+    font-weight: 700;
+}
+.client-info{
+    margin-bottom: 2%;
+}
+.client-title{
+    color: gray;
+}
+.client-review{
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+.client-review p{
+    width: 40%;
+    margin: auto;
+}
+.contact{
+    background-color: rgb(206, 4, 115);
+    color: rgb(255, 255, 255);
+    padding: 6px ;
+    width: 45%;
+    border-radius: 6px;
+    margin: 5% auto;
+    font-weight: 700;
+}
+#contact-email{
+    font-size: 1.7rem;
+}
+footer{
+    text-align: center;
 }
